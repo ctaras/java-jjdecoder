@@ -1,5 +1,3 @@
-package ua.chuchvaga.taras.jjdecode;
-
 import junit.framework.TestCase;
 
 public class JJDecoderTest extends TestCase {
