@@ -1,5 +1,3 @@
-package ua.chuchvaga.taras.jjdecode;
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -9,7 +7,7 @@ public class JJDecoder {
 
     private final String encodedStr;
 
-    JJDecoder(String encodedStr) {
+    public JJDecoder(String encodedStr) {
         this.encodedStr = clean(encodedStr);
     }
 
@@ -40,7 +38,7 @@ public class JJDecoder {
             }
 
         } else
-            System.out.println("Usage: java ua.chuchvaga.taras.jjdecode.JJDecoder <jjencoded_file>");
+            System.out.println("Usage: JJDecoder <jjencoded_file>");
 
     }
 
